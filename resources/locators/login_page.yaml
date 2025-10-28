@@ -1,0 +1,4 @@
+# Replace these with real Maxex selectors
+USERNAME_INPUT: "css=input[name='username']"
+PASSWORD_INPUT: "css=input[name='password']"
+LOGIN_BUTTON: "text=Login"

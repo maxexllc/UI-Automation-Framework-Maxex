@@ -1,0 +1,8 @@
+BASE_URL: "https://app.maxex.example/login"
+BROWSER: "chromium"
+HEADLESS: true
+VIEWPORT:
+  width: 1440
+  height: 900
+RECORD_VIDEO:
+  dir: "results/videos"

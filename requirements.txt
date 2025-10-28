@@ -1,0 +1,6 @@
+# Core Robot + Playwright (Browser). The [bb] extra installs the "batteries-included" Node side.
+robotframework>=7.0
+robotframework-browser[bb]>=19.0
+robotframework-pabot>=4.0
+robocop>=4.5
+pyyaml>=6.0.1

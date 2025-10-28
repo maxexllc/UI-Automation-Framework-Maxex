@@ -1,0 +1,9 @@
+# Dev environment variables for Maxex UI tests
+BASE_URL: "https://dev.maxex.example/login"
+BROWSER: "chromium"
+HEADLESS: true
+VIEWPORT:
+  width: 1366
+  height: 768
+RECORD_VIDEO:
+  dir: "results/videos"
