@@ -1,11 +1,11 @@
 # Maxex UI Automation — High‑Level Guide (Robot Framework + Playwright)
 
 This repository is a **lightweight starter** for UI tests that use **Robot Framework** with the **Browser library (Playwright)**.
-It’s intentionally simple so you can plug in your Maxex URLs, selectors, and credentials and start running smoke tests in minutes.
+It’s intentionally simple so we can plug in our Maxex URLs, selectors, and credentials and start running smoke tests in minutes.
 
 ---
 
-## What you can do with this repo
+## What we can do with this repo
 - Write readable, keyword‑driven tests in `.robot` files.
 - Run against **Chromium/Firefox/WebKit** via Playwright.
 - Switch **dev / qa / prod** by passing an `ENV` variable.
@@ -89,6 +89,6 @@ requirements.txt, Dockerfile, Makefile
 
 ## Notes
 - Python **3.10+** is recommended for recent `robotframework-browser` releases.
-- You don’t need `pip install playwright` for this stack; the **Browser** library bundles the Node.js Playwright layer.
+- We don’t need `pip install playwright` for this stack; the **Browser** library bundles the Node.js Playwright layer.
 - If `rfbrowser` isn’t found, ensure your virtual environment is activated.
 - For headless/non‑headless, adjust the YAML env files.
